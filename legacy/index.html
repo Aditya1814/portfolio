@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Surya Bhaskar Reddy Kovvuri | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor glow effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>AK<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Aditya Kovvuri</span>
+            </h1>
+            <div class="hero-role animate-on-scroll">
+                <span class="role-prefix">I build</span>
+                <span class="typewriter" id="typewriter"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+            <p class="hero-description animate-on-scroll">
+                Full-stack developer crafting real-time APIs, AI-powered tools, and scalable microservices. 
+                Passionate about GenAI and agentic applications.
+            </p>
+            <div class="hero-actions animate-on-scroll">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat">
+                    <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text animate-on-scroll">
+                    <p>
+                        I'm a <strong>full-stack software developer</strong> based in Hyderabad, India, with a passion for 
+                        building products that live at the intersection of design and engineering. I specialize in 
+                        <strong>React.js, Node.js, TypeScript</strong>, and cutting-edge <strong>GenAI technologies</strong>.
+                    </p>
+                    <p>
+                        Currently at <strong>YuppTV Inc.</strong>, I engineer advanced chat streaming APIs and integrate 
+                        large language models to deliver real-time, AI-enhanced conversational experiences. I'm also 
+                        proficient in developing agentic AI applications using <strong>LangChain and LangGraph</strong>.
+                    </p>
+                    <p>
+                        When I'm not coding, I'm exploring the latest in AI research, contributing to open-source, 
+                        and continuously sharpening my DSA skills.
+                    </p>
+                </div>
+                <div class="about-details animate-on-scroll">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <div>
+                            <span class="detail-label">Name</span>
+                            <span class="detail-value">Aditya Surya Bhaskar Reddy Kovvuri</span>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Hyderabad, India</span>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <div>
+                            <span class="detail-label">Current Role</span>
+                            <span class="detail-value">Software Engineer @ YuppTV</span>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c6 3 10 0 12-1v-4"/></svg>
+                        </div>
+                        <div>
+                            <span class="detail-label">Degree</span>
+                            <span class="detail-value">B.Tech in Computer Science, GITAM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">02</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line-v"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Software Engineer</h3>
+                                <span class="timeline-company">YuppTV Inc.</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">Aug 2024 — Present</span>
+                                <span class="timeline-location">Hyderabad</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Engineered advanced chat streaming APIs and integrated LLMs (Gemini, ChatGPT, Vertex AI) for real-time AI-enhanced conversational experiences.</li>
+                            <li>Designed highly interactive dashboards and complex UI features using React.js and CSS-in-JS, elevating user engagement with cross-device responsiveness.</li>
+                            <li>Refined CI/CD pipelines with automated testing and deployment scripts, shortening release cycles and reinforcing production stability.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">GenAI</span>
+                            <span class="tag">Vertex AI</span>
+                            <span class="tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Junior Engineer</h3>
+                                <span class="timeline-company">Phoenix Global</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">Apr 2024 — Jul 2024</span>
+                                <span class="timeline-location">Hyderabad</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Leveraged advanced data analytics to extract actionable insights from complex COVID-19 datasets, enhancing decision-making for stakeholders.</li>
+                            <li>Designed and deployed dynamic dashboards in Tableau and Power BI, increasing executive engagement and data-driven strategy adoption by 30%.</li>
+                            <li>Conducted deep-dive exploratory data analysis to uncover hidden patterns, supporting predictive modeling initiatives.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Data Analytics</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">03</span>
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/><line x1="12" y1="22" x2="12" y2="15.5"/><polyline points="22 8.5 12 15.5 2 8.5"/></svg>
+                        </div>
+                        <h3>Frontend & Databases</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-pill">React JS</span>
+                        <span class="skill-pill">Next JS</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">TypeScript</span>
+                        <span class="skill-pill">HTML/CSS</span>
+                        <span class="skill-pill">Tailwind CSS</span>
+                        <span class="skill-pill">Bootstrap</span>
+                        <span class="skill-pill">Electron JS</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Backend & APIs</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-pill">Node.js</span>
+                        <span class="skill-pill">Express JS</span>
+                        <span class="skill-pill">Django</span>
+                        <span class="skill-pill">Chat Streaming APIs</span>
+                        <span class="skill-pill">REST APIs</span>
+                        <span class="skill-pill">JWT</span>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M12 2a4 4 0 0 0-4 4c0 1.95 1.4 3.58 3.25 3.93"/><path d="M8.56 13a8 8 0 0 0-2.3 3.5"/><path d="M15.44 13a8 8 0 0 1 2.3 3.5"/></svg>
+                        </div>
+                        <h3>GenAI & LLMs</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-pill">Prompt Engineering</span>
+                        <span class="skill-pill">LLM Integration</span>
+                        <span class="skill-pill">Fine-tuning</span>
+                        <span class="skill-pill">AI Model Evaluation</span>
+                        <span class="skill-pill">LangChain</span>
+                        <span class="skill-pill">LangGraph</span>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <h3>Tools & DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">Jenkins</span>
+                        <span class="skill-pill">Jira</span>
+                        <span class="skill-pill">Vertex AI</span>
+                        <span class="skill-pill">DBeaver</span>
+                        <span class="skill-pill">Postman</span>
+                        <span class="skill-pill">Cursor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">04</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-inner">
+                        <div class="project-number">01</div>
+                        <div class="project-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+                        </div>
+                        <h3 class="project-title">Social Publish Automation Platform</h3>
+                        <p class="project-description">
+                            AI-assisted publishing tool to automatically post content across YouTube, Facebook, 
+                            Instagram, LinkedIn, and Twitter from a single dashboard. Features automatic generation 
+                            of SEO-friendly titles, descriptions, and hashtags using LLMs.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Multi-platform publishing</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>AI-generated SEO content</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Real-time content feedback</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Next JS</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-inner">
+                        <div class="project-number">02</div>
+                        <div class="project-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+                        </div>
+                        <h3 class="project-title">Multi-Agent AI Automation Platform</h3>
+                        <p class="project-description">
+                            A multi-agent AI automation platform capable of handling real-time query processing, 
+                            workflow orchestration, and contextual knowledge retrieval. Features specialized AI agents 
+                            for intent analysis, semantic search, and response generation using LangGraph orchestration.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>RAG with vector search</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Multi-agent orchestration</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Automated workflow execution</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Contextual reasoning & collaboration</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">LangGraph</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">OpenAI/Gemini</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-inner">
+                        <div class="project-number">03</div>
+                        <div class="project-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3 class="project-title">Signature Authentication System</h3>
+                        <p class="project-description">
+                            AI-powered signature authentication system leveraging computer vision and machine learning 
+                            for verifying handwritten signatures. Uses CNN to analyze stroke patterns, angles, and 
+                            pressure points for reliable forgery detection.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Computer vision analysis</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>CNN-based feature extraction</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Forgery detection</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">05</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-year">2024</div>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Bachelor of Technology</h3>
+                        <span class="edu-field">Computer Science</span>
+                        <span class="edu-school">GITAM Deemed University, Visakhapatnam</span>
+                        <div class="edu-score">
+                            <span class="score-label">CGPA</span>
+                            <span class="score-value">8.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-year">2020</div>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Intermediate</h3>
+                        <span class="edu-school">Sasi New Jen Junior College, Velivennu, AP</span>
+                        <div class="edu-score">
+                            <span class="score-label">GPA</span>
+                            <span class="score-value">9.4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-year">2018</div>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Secondary Education</h3>
+                        <span class="edu-school">St. Anns E.M School, Tadepalligudem, AP</span>
+                        <div class="edu-score">
+                            <span class="score-label">GPA</span>
+                            <span class="score-value">9.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">06</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content animate-on-scroll">
+                <p class="contact-text">
+                    I'm currently open to new opportunities and collaborations. Whether you have a question, 
+                    a project idea, or just want to say hi — my inbox is always open.
+                </p>
+                <div class="contact-cards">
+                    <a href="mailto:adithyareddy216@gmail.com" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <span class="contact-card-label">Email</span>
+                        <span class="contact-card-value">adithyareddy216@gmail.com</span>
+                    </a>
+                    <a href="tel:+919381766992" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <span class="contact-card-label">Phone</span>
+                        <span class="contact-card-value">+91 9381766992</span>
+                    </a>
+                    <a href="https://linkedin.com/in/aditya-reddy-kovvuri-37a60325a" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </div>
+                        <span class="contact-card-label">LinkedIn</span>
+                        <span class="contact-card-value">Aditya Reddy Kovvuri</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>AK<span class="logo-bracket">/&gt;</span>
+                </span>
+                <p class="footer-text">Designed & Built by Aditya Kovvuri</p>
+                <p class="footer-copyright">&copy; 2026 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
